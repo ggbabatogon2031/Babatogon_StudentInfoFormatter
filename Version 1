@@ -1,0 +1,4 @@
+print("Enter first name: ")
+print("Enter last name: ")
+print("Enter section: ")
+print("Enter favorite subject: ")
