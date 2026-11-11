@@ -1,0 +1,20 @@
+first = input("Enter first name: ")
+last = input("Enter last name: ")
+section = input("Enter section: ")
+fav_sub = input("Enter favorite subject: ")
+
+# Format strings and calculate character count
+form_name = first.title() + last.title()
+form_name_code = first.upper() + last.upper()
+form_section = section.upper()
+form_fav_sub = fav_sub.title()
+char_count = len(f"{first} {last}")
+
+# Display formatted student profile
+print()
+print("Formatted Output: ")
+print(f"Name: {form_name}")
+print(f"Name Code: {form_name_code}")
+print(f"Section: {form_section}")
+print(f"Favorite Subject: {form_fav_sub}")
+print(f"Character Count: {char_count}")
