@@ -1,4 +1,4 @@
-print("Enter first name: ")
-print("Enter last name: ")
-print("Enter section: ")
-print("Enter favorite subject: ")
+input("Enter first name: ")
+input("Enter last name: ")
+input("Enter section: ")
+input("Enter favorite subject: ")
